@@ -376,6 +376,8 @@ public class AnsibleResourceModelSource implements ResourceModelSource {
           interestingItems.put("ansible_selinux", "selinux");
           interestingItems.put("ansible_fips", "fips");
 
+          interestingItems.put("state", "state");
+		
           interestingItems.put("ansible_service_mgr", "service_mgr");
           interestingItems.put("ansible_pkg_mgr", "pkg_mgr");
 
